@@ -65,7 +65,7 @@ public class ConditionEx {
 		String result;
 		
 		if(month >= 3 && month <=5) result = "봄";
-		else if(month >= 6 && month <=8) result = " 여름";
+		else if(month >= 6 && month <=8) result = "여름";
 		else if(month >= 9 && month <=11) result = "가을";
 		else if(month == 12 || month == 1 || month == 2) result = "겨울";
 		else result = "잘못 입력";
