@@ -60,7 +60,6 @@ public class ExceptionHandlingService2 {
 		
 		try {
 			int input = scan.nextInt();
-			
 			System.out.println("입력한 정수 * 10 : " + (input * 10));
 		}
 		catch(InputMismatchException e) {
